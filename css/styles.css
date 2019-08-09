@@ -1,10 +1,12 @@
 body {
-
   background-image:repeating-linear-gradient(lightblue,crimson,darkgreen);
 }
 .contact  {
   margin-left: 500px;
   float: right;
+}
+.pro {
+  background-image: url(portfolio/img/wilson.jpeg);
 }
 .projects {
   width:20%;
@@ -35,7 +37,6 @@ h5, h2, h1, h3{
   float:left;
   max-width: 100%;
 }
-
 .about {
   width: auto;
   border-color: green;
@@ -47,7 +48,6 @@ h5, h2, h1, h3{
   margin-left: 20px;
   margin-top: 25px;
   float:left;
-
 }
 .aboutbroad {
   float: left;
