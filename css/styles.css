@@ -3,8 +3,8 @@ body {
 }
 
 .projects {
-  width:420px;
-  height:250px;
+  width:20%;
+  height:auto;
   border-color:lightgrey;
   background-color: lightgrey;
   border-width:medium;
@@ -17,11 +17,11 @@ body {
 
 h5, h2, h1, h3{
   text-align: center;
-
 }
 
 .container div {
-
+float:left;
+max-width: 100%
 }
 
 .about {
@@ -32,16 +32,30 @@ h5, h2, h1, h3{
   border-radius: 30px;
   padding: 10px;
   padding-bottom: 3px;
-  margin-left: 25px;
+  margin-left: 20px;
+  margin-top: 25px;
   float:left;
+  max-width: 45%;
+}
+.aboutbroad {
+  float: left;
+  max-width: 75%;
 }
 
 .photo {
-  width:50%;
+  max-width: 100%;
   height:auto;
   object-fit: contain;
+  margin-right: 30px;
+  float:left;
 }
 .photohold {
   width: auto;
-  max-width: 800px;
+  max-width: 40%;
+  float: right;
+  border-color: lightgray;
+  border:20px;
+  padding: 10px;
+  margin:15px;
+  border-radius: 30px;
 }
