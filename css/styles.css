@@ -1,7 +1,7 @@
 body {
-  background-color: darkgray;
-}
 
+  background-image:repeating-linear-gradient(lightblue,crimson,darkgreen);
+}
 .projects {
   width:20%;
   height:auto;
@@ -14,39 +14,42 @@ body {
   margin:25px;
   float:left;
 }
-
+footer {
+  text-shadow:black;
+  color:white;
+}
 h5, h2, h1, h3{
   text-align: center;
 }
 
 .container div {
-float:left;
-max-width: 100%
+  float:left;
+  max-width: 100%;
 }
 
 .about {
   width: auto;
-  border-color: lightgrey;
+  border-color: green;
   background-color: lightgrey;
-  border-width: medium;
+  border-width: thick;
   border-radius: 30px;
   padding: 10px;
   padding-bottom: 3px;
   margin-left: 20px;
   margin-top: 25px;
   float:left;
-  max-width: 45%;
+  max-width: 100%;
 }
 .aboutbroad {
   float: left;
-  max-width: 75%;
+  max-width: 45%;
 }
 
 .photo {
   max-width: 100%;
   height:auto;
   object-fit: contain;
-  margin-right: 30px;
+  margin-right: 100px;
   float:left;
 }
 .photohold {
@@ -58,4 +61,5 @@ max-width: 100%
   padding: 10px;
   margin:15px;
   border-radius: 30px;
+  margin-right:100px;
 }
