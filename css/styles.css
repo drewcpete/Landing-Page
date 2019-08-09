@@ -22,7 +22,11 @@ footer {
 h5, h2, h1, h3{
   text-align: center;
 }
-
+.col-md-8 {
+  width: auto;
+  max-width: 60%;
+  float:left;
+}
 .container div {
   float:left;
   max-width: 100%;
@@ -39,14 +43,15 @@ h5, h2, h1, h3{
   margin-left: 20px;
   margin-top: 25px;
   float:left;
-  max-width: 100%;
+
 }
 .aboutbroad {
   float: left;
   max-width: 45%;
 }
 .special {
-  word-wrap: break-word;
+  width: auto;
+  max-width: auto;
 }
 .photo {
   max-width: 100%;
@@ -74,7 +79,7 @@ h5, h2, h1, h3{
   background-color: black;
   border-radius: 10px;
   margin-right: 25px;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 span{
   font-style: oblique;
