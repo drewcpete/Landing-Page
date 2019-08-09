@@ -17,6 +17,7 @@ _This is a landing webpage featuring different projects worked on at Epicodus.  
 ## Support and contact details
 
 _drewcpete@gmail.com_
+_https://drewcpete.github.io/Landing-Page/_
 
 ## Technologies Used
 
