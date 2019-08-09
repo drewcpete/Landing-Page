@@ -1,0 +1,21 @@
+.projects {
+  width:420px;
+  height:250px;
+  border-color:lightgrey;
+  background-color: lightgrey;
+  border-width:medium;
+  border-style: ridge;
+  border-radius: 30px;
+  padding:10px;
+  margin:25px;
+  float:left;
+}
+
+h5, h3{
+  text-align: center;
+
+}
+
+.container div {
+
+}
