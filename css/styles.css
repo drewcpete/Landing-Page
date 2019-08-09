@@ -2,6 +2,10 @@ body {
 
   background-image:repeating-linear-gradient(lightblue,crimson,darkgreen);
 }
+.contact  {
+  margin-left: 500px;
+  float: right;
+}
 .projects {
   width:20%;
   height:auto;
