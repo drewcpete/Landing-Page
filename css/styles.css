@@ -4,7 +4,7 @@
   border-color:lightgrey;
   background-color: lightgrey;
   border-width:medium;
-  border-style: ridge;
+  border-style: solid;
   border-radius: 30px;
   padding:10px;
   margin:25px;
@@ -18,4 +18,14 @@ h5, h3{
 
 .container div {
 
+}
+
+.about {
+  width: 600px;
+  border-color: lightgrey;
+  background-color: lightgrey;
+  border-width: medium;
+  border-radius: 30px;
+  padding: 10px;
+  padding-bottom: 3px;
 }
