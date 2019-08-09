@@ -1,3 +1,7 @@
+body {
+  background-color: darkgray;
+}
+
 .projects {
   width:420px;
   height:250px;
@@ -11,7 +15,7 @@
   float:left;
 }
 
-h5, h3{
+h5, h2, h1, h3{
   text-align: center;
 
 }
@@ -21,11 +25,23 @@ h5, h3{
 }
 
 .about {
-  width: 600px;
+  width: auto;
   border-color: lightgrey;
   background-color: lightgrey;
   border-width: medium;
   border-radius: 30px;
   padding: 10px;
   padding-bottom: 3px;
+  margin-left: 25px;
+  float:left;
+}
+
+.photo {
+  width:50%;
+  height:auto;
+  object-fit: contain;
+}
+.photohold {
+  width: auto;
+  max-width: 800px;
 }
