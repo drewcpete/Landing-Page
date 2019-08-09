@@ -11,7 +11,8 @@ body {
   border-style: solid;
   border-radius: 30px;
   padding:10px;
-  margin:25px;
+  margin:15px;
+
   float:left;
 }
 footer {
@@ -44,13 +45,16 @@ h5, h2, h1, h3{
   float: left;
   max-width: 45%;
 }
-
+.special {
+  word-wrap: break-word;
+}
 .photo {
   max-width: 100%;
   height:auto;
   object-fit: contain;
   margin-right: 100px;
   float:left;
+  border-radius: 30px;
 }
 .photohold {
   width: auto;
@@ -62,4 +66,17 @@ h5, h2, h1, h3{
   margin:15px;
   border-radius: 30px;
   margin-right:100px;
+}
+.list {
+  float:right;
+  color: lightgray;
+  border: solid black;
+  background-color: black;
+  border-radius: 10px;
+  margin-right: 25px;
+  margin-top: 5px;
+}
+span{
+  font-style: oblique;
+  font-weight: bold;
 }
